@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>registration</title>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  <h1> Student Registration Form </h1>
+  <form>
+  <div>
+    <label for ="fullname">Fullname:</label>
+	<input type ="text" name= "fullname" id ="fullname" required>
+  </div> <br>
+  <div>
+  <label for = "email">Email:</label>
+  <input type ="email" name= "email" id ="email" required>
+  </div> <br>
+  <div>
+     <label for ="password">Password:</label>
+	 <input type ="password" name="password" id ="password">
+  </div> <br>
+  
+  <div>
+     <label for ="dob">Date of birth:</label>
+	 <input type ="Date" name ="dob" id ="dob">
+  </div> <br>
+  
+  <div>
+  <label for ="image">Choose your photo:</label>
+  <input type ="file" name ="photo" id ="photo">
+  </div> <br>
+  
+  <div>
+  <label for ="gender">Gender:</label>
+  <input type ="radio" id ="gender1" value ="Male"> Male
+  <input type ="radio" id ="gender2" value ="Female"> Female
+  </div> <br>
+  
+  <div>
+  <label for ="religion">Religion:</label>
+  <input type ="checkbox" name ="r1" id ="r1" value ="Islam"> Islam
+  <input type ="checkbox" name ="r3" id ="r3" value ="Hindu" checked> Hindu
+  </div> <br>
+  
+  <div>
+  <label for ="department">Department:</label>
+  <select name ="department">
+     <option value = "CSE"> CSE </option>
+	 <option value = "EEE" selected > EEE </option>
+  </select>
+  </div> <br>
+  
+  <div>
+  <label for ="address">Address:</label>
+  <textarea col ="5" rows ="15"></textarea>
+  </div> <br/>
+  
+  <div>
+  <input type ="submit" value ="Register">
+  <input type ="reset" value ="clear">
+  </div> <br>
+  </form>
+  </body>
+  </html>
+  
+  
